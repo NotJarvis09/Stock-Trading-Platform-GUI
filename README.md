@@ -23,9 +23,18 @@ A feature-rich Java desktop stock trading platform equipped with an interactive 
 - Java Development Kit (JDK) installed on your system[cite: 2].
 
 ## How to Run
+1. Clone the repository:
 ```bash
-git clone [https://github.com/NotJarvis09/Stock-Trading-Platform-GUI.git](https://github.com/NotJarvis09/Stock-Trading-Platform-GUI.git)
+git clone https://github.com/NotJarvis09/Stock-Trading-Platform-GUI.git
+```
+2. Navigate to the project directory.
+3. Compile the Java source file:
+```bash
 cd "Task 2"
 javac *.java
+```
+4. Run the application:
+```bash
 cd ..
 java Task 2.StockTradingPlatformGUI
+```
