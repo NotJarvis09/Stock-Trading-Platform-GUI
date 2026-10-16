@@ -1,26 +1,26 @@
 # Stock Trading Platform GUI
 
-A feature-rich Java desktop stock trading platform equipped with an interactive Graphical User Interface (GUI). Designed to simulate real-world market operations, this application allows users to execute trades, manage portfolios, monitor live stock trends, and track pending orders[cite: 2].
+A feature-rich Java desktop stock trading platform equipped with an interactive Graphical User Interface (GUI). Designed to simulate real-world market operations, this application allows users to execute trades, manage portfolios, monitor live stock trends, and track pending orders.
 
 ## Features
-- **Interactive GUI Dashboard:** Built using Java Swing/AWT to provide a user-friendly interface for seamless trading[cite: 2].
-- **Portfolio Management:** Track holdings, view cash balances, and monitor overall investment performance[cite: 2].
-- **Order Execution & Tracking:** Handle market and pending orders dynamically through dedicated classes like `PendingOrder` and `OrderType`[cite: 2].
-- **Market Charts & Data:** Integrated chart panels (`StockChartPanel`) and database managers (`DatabaseManager`) to visualize price movements and store transaction history[cite: 2].
+- **Interactive GUI Dashboard:** Built using Java Swing/AWT to provide a user-friendly interface for seamless trading.
+- **Portfolio Management:** Track holdings, view cash balances, and monitor overall investment performance.
+- **Order Execution & Tracking:** Handle market and pending orders dynamically through dedicated classes like `PendingOrder` and `OrderType`.
+- **Market Charts & Data:** Integrated chart panels (`StockChartPanel`) and database managers (`DatabaseManager`) to visualize price movements and store transaction history.
 
 ## Project Structure
-- `Task 2/StockTradingPlatformGUI.java`: Main application entry point and GUI controller[cite: 2].
-- `Task 2/Stock.java`: Defines stock attributes, pricing, and market data structures[cite: 2].
-- `Task 2/Portfolio.java`: Manages user assets, holdings, and valuations[cite: 2].
-- `Task 2/DatabaseManager.java`: Handles data persistence and record storage[cite: 2].
-- `Task 2/portfolio_fallback.txt`: Fallback flat file for data storage[cite: 2].
-- `Task 2/PendingOrder.java`: Manages queueing and processing of pending trades[cite: 2].
-- `Task 2/OrderType.java`: Defines categories of trading orders[cite: 2].
-- `Task 2/StockChartPanel.java`: Renders visual charts for stock market trends[cite: 2].
-- `Task 2/Transaction.java`: Logs individual trading activity details[cite: 2].
+- `Task 2/StockTradingPlatformGUI.java`: Main application entry point and GUI controller.
+- `Task 2/Stock.java`: Defines stock attributes, pricing, and market data structures.
+- `Task 2/Portfolio.java`: Manages user assets, holdings, and valuations.
+- `Task 2/DatabaseManager.java`: Handles data persistence and record storage.
+- `Task 2/portfolio_fallback.txt`: Fallback flat file for data storage.
+- `Task 2/PendingOrder.java`: Manages queueing and processing of pending trades.
+- `Task 2/OrderType.java`: Defines categories of trading orders.
+- `Task 2/StockChartPanel.java`: Renders visual charts for stock market trends.
+- `Task 2/Transaction.java`: Logs individual trading activity details.
 
 ## Prerequisites
-- Java Development Kit (JDK) installed on your system[cite: 2].
+- Java Development Kit (JDK) installed on your system.
 
 ## How to Run
 1. Clone the repository:
